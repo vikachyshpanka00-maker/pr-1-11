@@ -1,0 +1,67 @@
+.q{
+   quotes: inherit;
+}
+.w{
+    text-indent: 20px;
+}
+.e{
+    line-height: 30px;
+}
+.r{
+    vertical-align: 20px;
+}
+.t{
+    text-align: left;
+}
+.y{
+    text-align: right;
+}
+.u{
+    letter-spacing: 20px;
+}
+.i{
+    word-spacing: 30px;
+}
+.o{
+    text-transform: capitalize;
+}
+.p{
+    direction: rtl;
+}
+#a{
+    text-decoration: line-through;
+}
+#s::first-letter{
+    font-size: 2em;
+  margin-right: 2px; 
+  color: #cdffc3;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px rgba(85, 221, 92, 0.753), 1px 1px 1px #aef39a
+}
+#d{
+    font-style: italic;
+}
+#f{
+    font-family: cursive;
+}
+#g{
+    font-variant: small-caps;
+}
+#h{
+    font-weight: 900;
+}
+#j{
+    color: #2a5f28;
+}
+#k{
+    font-size: 30px;
+}
+#l{
+    font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;
+}
+#z{
+    vertical-align: baseline;
+}
+#x{
+    text-align: center; 
+}
