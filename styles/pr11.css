@@ -1,0 +1,119 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f8fb;
+    padding: 20px;
+    color: #2d2d2d;
+  }
+
+  .s {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #e3e3e3;
+    background: #fafafa;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+  }
+
+  .f {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+  }
+
+  .l{
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+
+  }
+
+  .product-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .product-card img {
+    width: 140px;
+    height: 130px;
+
+    margin-bottom: 12px;
+    align-self: center;
+  }
+  .product-name {
+    color: #222;
+    font-weight: 600;
+    font-size: 16px;
+    height: 20px;
+  }
+  .store {
+    color: #222;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .store-icon {
+    width: 16px;
+    height: 16px;
+    background-color: #29912e;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .e {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #606060;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+  }
+  .c {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+  }
+  .c button {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid #b9d9be;
+    background: #d3fadc;
+    color: #206d3f;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+    
+  }
+  .c span{
+    font-weight: 600;
+    width: 22px;
+    text-align: center;
+  }
