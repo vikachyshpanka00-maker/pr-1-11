@@ -1,0 +1,96 @@
+.line {
+    padding: 0;
+}
+.line li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: rgb(182, 219, 190);
+    text-decoration: none;
+  }
+  .links a {
+    display: block;
+    margin-bottom: 10px;
+    width: 140px;
+    padding: 10px 5px;
+    color: rgb(25, 168, 137);
+    background-color: rgb(103, 255, 172);
+    text-decoration: none;
+  }
+  .blocks {
+    padding: 0;
+}
+.blocks div {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: rgb(182, 219, 190);
+}
+.blocks .non{
+    display: none;s
+}
+.links{
+    padding: 0;
+}
+.links-markers a{
+    display: list-item;
+    color: rgb(227, 255, 208);
+    text-decoration: none;
+    background-color: rgb(21, 129, 93);
+    width: 200px;
+    height: 30px;
+    line-height: 30px
+}
+.post1 .image {
+    display: block;
+    width: 200px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    border: 2px dashed;
+    border-color: rgb(11, 77, 55);
+    margin-top: 15px;
+    background-image: url(../img/weather-blizzard.jpg);
+    float: left;
+    margin-right: 20px;
+    margin-top: 3px;
+
+}
+.post2 .image{
+    display: block;
+    width: 200px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    border: 2px dashed;
+    border-color: rgb(11, 77, 55);
+    margin-top: 15px;
+    background-image: url(../img/weather-snow.jpg);
+    float: right;
+    margin-top: 3px;
+
+}
+.post1 div {    
+        line-height: 33px;
+    text-align: justify;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+}
+.post2 div{
+    line-height: 33px;
+    text-align: justify;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.post1{
+    width: 1200px;
+    background-color: rgb(173, 255, 173);
+}
+.post2{
+    width: 1200px;
+    background-color: rgb(173, 255, 173);
+}
