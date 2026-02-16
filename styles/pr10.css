@@ -1,0 +1,34 @@
+h2{
+  color: #6a6a6a;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 250px;
+}
+.r{
+  max-width: 800px;
+  margin-left: 380px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.b{
+  background-color: #ff4b75;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  margin-left: 80px;
+  border-radius: 3px;
+}
+.f{
+    display: grid;
+      grid-template-columns: repeat(3, 300px);
+      gap: 20px;
+}
+.d{
+  margin-left: 80px;
+}
+.t{
+  font-weight: 700;
+  margin-left: 380px;
+}
